@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo.png">
+    <title>Internet and Mental Health</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="fullNav">
+        <ul class="sidebar">
+            <li onclick=hidesidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                        viewBox="0 -960 960 960" width="26px" fill="black">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="About Us/about.html">About Us</a></li>
+            <li><a href="Login/index.html">Login</a></li>
+        </ul>
+        <ul style="list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;">
+            <li><a href="">Healthy Ceylon</a></li>
+            <li class="hideOnMobile"><a href="">Home</a></li>
+            <li class="hideOnMobile"><a href="">About Us</a></li>
+            <li class="hideOnMobile"><a href="">Blog</a></li>
+            <li class="hideOnMobile"><a href="About Us/about.html">About Us</a></li>
+            <li class="hideOnMobile"><a href="Login/index.html">Login</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="26px" viewBox="0 -960 960 960" width="26px" fill="black">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hidesidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+
+    <div class="container">
+        <header>
+            <h1>Using the internet may help older people's mental health, says new study</h1>
+            <p class="subtitle">
+                Around a quarter of people aged 50 and over in the UK said they were "often or always lonely," 
+                according to a government survey published last year. Now, researchers say making sure older 
+                people have access to the internet could help public health.
+            </p>
+            <p class="author">By Mickey Carroll,</p>
+            <p class="date">Monday 18 November 2024 16:00</p>
+        </header>
+
+        <div class="image-container">
+            <img src="skynews-internet-older-people_6751064.jpg" alt="Older person using a laptop">
+            
+        </div>
+
+        <section class="content">
+            <p><strong>Using the internet may result in less depression and better well-being in people over 50, according to a new study.</strong></p>
+            <p>
+                Researchers from the University of Hong Kong studied more than 87,500 people across 23 countries, including the UK.
+            </p>
+            <p>
+                They discovered people who used the internet to search for information, send and receive emails, and go shopping had fewer symptoms 
+                of depression, better levels of life satisfaction and better self-reported health.
+            </p>
+            <p>
+                In the US, England, and China, participants who used the internet had fewer depressive symptoms than those who did not use the internet.
+            </p>
+            <p>
+                The researchers say that's because people are using the internet to research health problems themselves, meaning they were able 
+                to be more self-sufficient, and were also able to be more social because of online interactions.
+            </p>
+            <p>
+                The findings, which are published in the journal Nature Human Behavior, could have implications for how loneliness is treated.
+            </p>
+        </section>
+    </div>
+
+    <footer style="background-color: #f9f9f9; padding: 20px; font-family: Arial, sans-serif;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; max-width: 1200px; margin: 0 auto;">
+          <!-- Left Section -->
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <img src="logo.png" alt="Logo" style="width: 50px; height: 50px; border-radius: 50%;">
+          </div>
+      
+          <!-- Center Section -->
+          <div style="flex: 1; margin-left: 20px;">
+            <div style="display: flex; justify-content: space-between;">
+              <div>
+                <h3 style="font-size: 14px; font-weight: bold;">YOUALIGNED</h3>
+                <ul style="list-style: none; padding: 0; margin: 10px 0;">
+                  <li><a href="#" style="text-decoration: none; color: #000;">Home</a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;">About Us</a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;">Blog</a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;"></a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;"></a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;"></a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;"></a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 style="font-size: 14px; font-weight: bold;">MORE CATEGORIES</h3>
+                <ul style="list-style: none; padding: 0; margin: 10px 0;">
+                  <li><a href="#" style="text-decoration: none; color: #000;">Fitness & Exersice</a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;">Communicable Diseases</a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;">Cardiovascular Health</a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;">Cancer</a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;">Diabetes</a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;">Nutrition</a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;">Kidney Health</a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;">Mental Health</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 style="font-size: 14px; font-weight: bold;">HELPFUL LINKS</h3>
+                <ul style="list-style: none; padding: 0; margin: 10px 0;">
+                  <li><a href="#" style="text-decoration: none; color: #000;">Terms and Conditions</a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;">Privacy Policy</a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;">Contact Us</a></li>
+                  <li><a href="#" style="text-decoration: none; color: #000;">FAQ</a></li>
+                </ul>
+                <!-- <div style="margin-top: 10px;">
+                  <a href="#"><img src="google-play.png" alt="Google Play" style="height: 40px; margin-right: 10px;"></a>
+                  <a href="#"><img src="app-store.png" alt="App Store" style="height: 40px;"></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 20px; font-size: 12px; color: #666;">
+          COPYRIGHT © 2024 Healthy Ceylon.
+        </div>
+      </footer>
+</body>
+</html>
